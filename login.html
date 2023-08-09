@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/loginreg.css">
+<title>Login Form</title>
+</head>
+<body>
+  <div class="container">
+        <form action="" class="login__form">
+            <div>
+                <h1 class="login__title">
+                    <span>Welcome</span> Back
+                <p class="login__description">
+                    Welcome! Please login to continue.
+                </p>
+            </div>
+            
+            <div>
+                <div class="login__inputs">
+                    <div>
+                        <label for="" class="login__label">Email</label>
+                        <input type="email" placeholder="Enter your email address" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Password</label>
+
+                        <div class="login__box">
+                            <input type="password" placeholder="Enter your password" required class="login__input" id="input-pass">
+                            <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="captcha">
+                  <label for="captcha-input"></label>
+                  <div class="preview">40qCo5</div>
+                  <div class="captcha-form">
+                <div class="captcha_form">
+                  <input type="text" name="captcha" id="captcha-form" placeholder="Enter captcha" required class="login__input" >
+                   <button class="captcha-refresh">
+                  <i class="fa fa-refresh"></i>
+                  </button>
+              </div>
+
+                <div class="login__check">
+                    <input type="checkbox" class="login__check-input">
+                    <label for="" class="login__check-label">Remember me</label>
+                </div>
+            </div>
+
+            <div>
+                <div class="login__buttons">
+                    <button class="login__button">Log In</button>
+                    <input type="hidden" value="40qCo5" name="hid"/>
+                </div>
+
+                <p><a href="#" class="login__forgot">Forgot Password?</a></p>
+                <p>Don't have account? <a href="register.html">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
